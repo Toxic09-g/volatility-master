@@ -1,0 +1,17 @@
+https://dfironthemountain.wordpress.com/2018/10/29/installing-volatility-on-windows/
+
+1) установка Python2.7
+2) распаковка архива с Volatility 
+3) cmd от админа из директории распакованного архива setup.py install
+4) установить компилятор Microsoft Visual C++ Compiler for Python 2.7. 
+5) из cmd pip install distorm3
+6) из cmd pip install pycrypto
+7) из cmd pip install openpyxl
+8) из cmd pip install ujson==1.4
+9) проверка vol.py –h
+
+------- будьте готовы рассказать для чего используются выше установленные компоненты ------
+
+10) скопируйте в свою виртуальную машину архив cmd_utils.zip
+11) распакуйте в любую директорию
+12) добавьте путь к директории, в которую вы распаковали архив, в переменную среды PATH, чтобы утилиты распакованные из архива могли запускаться из командной строки
